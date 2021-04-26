@@ -21,20 +21,27 @@ As our application is now a REST API endpoint, there are multiple ways to upload
 
 ### CURL on Linux or Mac with bash/zsh
 
+From anywhere you have an example image like `car.jpg` (replace with the right name in the command, as well as the Route with `/predictions` at the end):
+
 ```bash
 (echo -n '{"image": "'; base64 car.jpg; echo '"}') | curl -H "Content-Type: application/json" -d @- http://licence-plate-workshop-git-lpr-workshop.apps.rhods-test.rqdu.p1.openshiftapps.com/predictions
 ```
 
 ### Curl on Windows
 
+From anywhere you have an example image like `car.jpg` (replace with the right name in the command, as well as the Route with `/predictions` at the end):
+
+```bash
+(echo -n '{"image": "'; base64 car.jpg; echo '"}') | curl -H "Content-Type: application/json" -d @- http://licence-plate-workshop-git-lpr-workshop.apps.rhods-test.rqdu.p1.openshiftapps.com/predictions
+```
+
 ### From a notebook
 
-* Open the notebook named `05_Send_image.ipynb
+* Open the notebook named `05_Send_image.ipynb`
 * Upload an image in your environment
 * In the first cell, replace the placeholders with your:
   * Image path and name.
   * Route to the service.
 * Run the cells and see the result!
 
-
-Once you're finished, you can come back here and [head to the next section](step7.html)
+Once you're finished, you can come back here and [head to the next section.](step8.html)

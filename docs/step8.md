@@ -10,4 +10,4 @@ We hope you have enjoyed this workshop!
 
 You have experienced first-hand how **Red Hat OpenShift Data Science** can simplify the onboarding of your AI/ML projects, providing an easy to use solution for your data scientists and data engineers.
 
-To learn more about **Red Hat OpenShift Data Science**, got to ...
+To learn more about **Red Hat OpenShift Data Science**, you can go to:
