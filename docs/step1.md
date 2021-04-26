@@ -6,15 +6,15 @@ nav_order: 2
 
 # Step 1: Starting a Jupyter environment
 
-You should be logged into **RHODS**, and be able to see the dashboard, that looks like this:
+You should be logged into **Red Hat OpenShift Data Science**, and be able to see the dashboard, that looks like this:
 
 {:refdef: style="text-align: center;"}
-![alt text](./assets/img/dashboard.png "RHODS dashboard")
+![alt text](./assets/img/dashboard.png "Red Hat OpenShift Data Science dashboard")
 {: refdef}
 
-**RHODS** brings you on-demand Jupyter Notebooks environments. Don't worry if you've never used notebooks before as this workshop will start with a small tutorial on what they are and how to use them.
+**Red Hat OpenShift Data Science** brings you on-demand Jupyter Notebooks environments. Don't worry if you've never used notebooks before as this workshop will start with a small tutorial on what they are and how to use them.
 
-* Now that you are logged into to **RHODS**, click on the "Launch" link on the JupyterHub card:
+* Now that you are logged into to **Red Hat OpenShift Data Science**, click on the "Launch" link on the JupyterHub card:
 
 {:refdef: style="text-align: center;"}
 ![alt text](./assets/img/jh_launch.png "JupyterHub card")

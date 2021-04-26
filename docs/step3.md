@@ -22,7 +22,7 @@ And a cell where we have entered some code:
 ![alt text](./assets/img/cell_code.png "A notebook cell with code")
 {: refdef}
 
-* Code cells contain Python code that can be run interactively. Thats means you can modify the code, then run it. The code will not run on you computer or in the browser, but directly in the environment you are connected to, **RHODS** in our case.
+* Code cells contain Python code that can be run interactively. Thats means you can modify the code, then run it. The code will not run on you computer or in the browser, but directly in the environment you are connected to, **Red Hat OpenShift Data Science** in our case.
 
 * To run a code cell, just select it (click in the cell, or on the left side of it), and click the Run/Play button from the toolbar (you can also press CTRL+Enter to run a cell, or Shift+Enter to run the cell and automatically select the following one).
 
@@ -48,7 +48,7 @@ Notebooks are so named because they are just like a physical **Notebook**: it's 
 
 Now that we have covered the basics, just give it a try!
 
-* In your Jupyter environment (the file explorer-like interface), there is file called `01_sanbdbox.ipynb`. Double-click on it to launch the notebook (it will open another tab in the content section of the environment). Please feel free to experiment, run the cells, add some more and create functions. You can do what you want - it's your environment, and there is no risk of breaking anything or impacting other users. This environment isolation is also a great advantage brought by **RHODS**.
+* In your Jupyter environment (the file explorer-like interface), there is file called `01_sanbdbox.ipynb`. Double-click on it to launch the notebook (it will open another tab in the content section of the environment). Please feel free to experiment, run the cells, add some more and create functions. You can do what you want - it's your environment, and there is no risk of breaking anything or impacting other users. This environment isolation is also a great advantage brought by **Red Hat OpenShift Data Science**.
   
 * You can create a new notebook by selecting `File`->`New`->`Notebook`from the menu on the top left, then select a Python 3 kernel. This instructs Jupyter that we want to create a new notebook where the code cells will be run using a Python 3 kernel. We could have different kernels, with different languages or versions that we can run into notebooks, but that's a story for another time...
 
