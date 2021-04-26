@@ -3,7 +3,9 @@ layout: default
 nav_order: 1
 ---
 
-# Introduction
+# Red Hat OpenShift Data Science Workshop - Licence plate recognition
+
+## Introduction
 
 Welcome!
 
@@ -24,3 +26,5 @@ In this introductory workshop, you'll learn how to use **Red Hat OpenShift Data 
 * From which we will recognize the plate number, **S7JDW** !
 
 And all of this without having to install anything on your own computer, thanks to **Red Hat OpenShift Data Science**!
+
+If you're ready,  [let's start!](step1.html)

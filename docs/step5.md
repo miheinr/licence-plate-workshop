@@ -24,4 +24,4 @@ After this explanations, you are ready to open the file `03_LPR_run_application.
 ![alt text](./assets/img/lpr_run.png "LPR notebook")
 {: refdef}
 
-Once you're finished, you can come back here and [head to the next section](step6.html)
+Once you're finished, you can come back here and [head to the next section.](step6.html)

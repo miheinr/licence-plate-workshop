@@ -38,4 +38,4 @@ In the "file-browser" like window you're in right now, you'll find the files and
 ![alt text](./assets/img/lp_folder.png "Git")
 {: refdef}
 
-[Ready? Let's go to the next section](step3.html)
+[Ready? Let's go to the next section.](step3.html)

@@ -34,4 +34,4 @@ Once you have authorized access, you will be taken to the JupyterHub "Spawner Op
 ![alt text](./assets/img/j_start.png "Start the environment")
 {: refdef}
 
-While your environment is starting,  [let's go to the next section](step2.html)
+While your environment is starting,  [let's go to the next section.](step2.html)
