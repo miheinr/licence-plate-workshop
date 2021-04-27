@@ -27,12 +27,12 @@ From anywhere you have an example image like `car.jpg` (replace with the right n
 (echo -n '{"image": "'; base64 car.jpg; echo '"}') | curl -H "Content-Type: application/json" -d @- http://licence-plate-workshop-git-lpr-workshop.apps.rhods-test.rqdu.p1.openshiftapps.com/predictions
 ```
 
-### Curl on Windows
+### Invoke-WebRequest on Windows with Powershell
 
-From anywhere you have an example image like `car.jpg` (replace with the right name in the command, as well as the Route with `/predictions` at the end):
+From anywhere you have an example image like `car.jpg` (replace with the complete path and name in the command, as well as the Route with `/predictions` at the end):
 
-```bash
-(echo -n '{"image": "'; base64 car.jpg; echo '"}') | curl -H "Content-Type: application/json" -d @- http://licence-plate-workshop-git-lpr-workshop.apps.rhods-test.rqdu.p1.openshiftapps.com/predictions
+```powershell
+Write-Output ('{"image": "' + ([Convert]::ToBase64String([IO.File]::ReadAllBytes('C:\Users\Guillaume\Downloads\car.jpg'))) + '"}') | iwr -Uri http://licence-plate-workshop-git-lpr-workshop.apps.rhods-test.rqdu.p1.openshiftapps.com/predictions -Method 'POST' -ContentType: 'application/json' | Select-Object -Expand Content
 ```
 
 ### From a notebook
