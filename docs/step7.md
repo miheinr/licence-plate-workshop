@@ -44,4 +44,14 @@ Write-Output ('{"image": "' + ([Convert]::ToBase64String([IO.File]::ReadAllBytes
   * Route to the service.
 * Run the cells and see the result!
 
+
+{:refdef: style="text-align: center;"}
+![alt text](./assets/img/car_send_image.png "Car")
+{: refdef}
+
+
+{:refdef: style="text-align: center;"}
+![alt text](./assets/img/car_send_image_result.png "Result")
+{: refdef}
+
 Once you're finished, you can come back here and [head to the next section.](step8.html)
