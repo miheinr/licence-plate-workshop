@@ -21,7 +21,8 @@ You should be logged into **Red Hat OpenShift Data Science**, and be able to see
 {: refdef}
 
 If it's the first time you're launching Jupyter, you will be sent to a page that will require you to login and ask for your authorization to use your user account to authenticate to Jupyter. You should of course allow this if you want to do the workshop...
-Once you have authorized access, you will be taken to the JupyterHub "Spawner Options" page. 
+
+Once you have authorized access, you will be taken to the JupyterHub "Spawner Options" page.
 
 * From the "Start a notebook server" page, there are multiple options you can choose from to launch your environment.
   * For the **Notebook Image** dropdown, select **TensorFlow** (`Python v3.8.3, Tensorflow==2.4.1, CUDA 11.0.3`), as this is the flavor of notebook we want to use. It includes the TensorFlow library, which is used to do image recognition.

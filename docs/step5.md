@@ -18,7 +18,7 @@ Some explanations first:
 
 * There are other files in the folder that are used to provide functions to launch a web server that will be used to serve our API.
 
-After this explanations, you are ready to open the file `03_LPR_run_application.ipynb`, and follow the instructions directly in the notebook!
+After these explanations, you are ready to open the file `03_LPR_run_application.ipynb`, and follow the instructions directly in the notebook!
 
 {:refdef: style="text-align: center;"}
 ![alt text](./assets/img/lpr_run.png "LPR notebook")
