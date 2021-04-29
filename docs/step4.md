@@ -17,7 +17,7 @@ Still in you environment, just open the file `02_Licence-plate-recognition.ipynb
 At the end of the notebook, it will look like this:
 
 {:refdef: style="text-align: center;"}
-![alt text](./assets/img/lpr_result "LPR notebook")
+![alt text](./assets/img/lpr_result.png "LPR notebook")
 {: refdef}
 
 Once you're finished, you can come back here and [head to the next section.](step5.html)
