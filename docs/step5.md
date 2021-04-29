@@ -24,4 +24,16 @@ After these explanations, you are ready to open the file `03_LPR_run_application
 ![alt text](./assets/img/lpr_run.png "LPR notebook")
 {: refdef}
 
+You'll first launch the Server:
+
+{:refdef: style="text-align: center;"}
+![alt text](./assets/img/launch_server.png "Launch Server")
+{: refdef}
+
+Then query the API:
+
+{:refdef: style="text-align: center;"}
+![alt text](./assets/img/query_api.png "Query API")
+{: refdef}
+
 Once you're finished, you can come back here and [head to the next section.](step6.html)
